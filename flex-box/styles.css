@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100%;
+    flex-flow: column;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    width: 100%;
+}
+
+.header{
+    border: 1px solid white;
+    height: 10%;
+    background: #0466c8;
+    font-weight: bold;
+    width: 100vw;
+}
+.Menu{
+    display: flex;
+}
+.Menu-item{
+    list-style: none;
+    flex: 1;
+    border: 1px solid white;
+    line-height: 3rem;
+    text-align: center;
+    transition: flex .5s;
+    cursor: pointer;
+}
+.Menu-item:hover {
+    flex: 3;
+}
+.container{
+    margin: 0px;
+    display: flex;
+    height: 90%;
+    width: 100%;
+    background: linear-gradient(#0466c8,#979dac);
+}
+.content {
+    border: 2px solid white;
+    flex: 1;
+    text-align: center;
+    padding: 30px 20px;
+}
+.content-title{
+    font-size: 35px;
+    
+}
+.content-description{
+    margin: 10px;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: bold;
+}
+.examples{
+    display: flex;
+    flex-direction: row;
+}
+.picture1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    border: 1px solid white;
+    border-radius: 40px;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.1);
+}
+.picture1 img{
+    width: 500px;
+    height: 332px;
+    object-fit: cover;
+}
+.picture2 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    border: 1px solid white;
+    border-radius: 40px;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.1);
+}
+.picture2 img{
+    width: 500px;
+    height: 332px;
+    object-fit: cover;
+    
+}
+.picture3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    border: 1px solid white;
+    border-radius: 40px;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.1);
+}
+.picture3 img{
+    width: 500px;
+    height: 332px;
+    object-fit: cover;
+}
+.aside{
+    border: 2px solid white;
+    flex: 0 0 25%;
+    padding: 20px;
+
+}
+
+.aside-menu li{
+    list-style: none;
+    padding: 10px 0px;
+}
+.aside-menu li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.aside-menu li a:hover{
+    text-decoration: underline;
+}
+.footer{
+    border: 2px solid white;
+    height: 10%;
+    margin-top: auto;
+    background: #979dac;
+    display: flex;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
